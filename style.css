@@ -10,3 +10,31 @@ body{
     justify-content: center;
     align-items: center;
 }
+.contactenos{
+    color: white;
+    margin-top: 50px;  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    color: #6C56C2;   
+}
+.formulario{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.form {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
