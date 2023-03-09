@@ -10,22 +10,56 @@ body{
     justify-content: center;
     align-items: center;
 }
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
 .contactenos{
     color: white;  
     display: flex;
     flex-direction: column;
     padding: 20px;
+    font-size: 20px;
 }
 h4{
-    color: #6C56C2;   
+    color: #6C56C2;
+    font-size: 16px;   
 }
 .formulario{
     width: 500px;
-    margin-top: 30px;
     padding: 20px; 
+    display: flex;
+    flex-direction: column;    
+}
+.formulario-item1{
+    font-size: 1.1em;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.formulario-item2{
+    font-size: 1.1em;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.formulario-item3{
+    font-size: 1.1em;
+    padding: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.formulario-item3::placeholder {
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
     
 }
-.formulario-input, .formulario-label, .formulario-enviar {
+
+/*.formulario-label, .formulario-enviar {
     width: 100%;
     font-size: 1.1em;
     background: transparent;
@@ -46,13 +80,13 @@ h4{
 }
 .formulario-label {
     padding-left: 15px;
-    /*position: absolute; 
-    margin-top: -85px;*/
+    position: absolute; 
+    margin-top: -85px;
     transition: all 0.2s;
     z-index: -20;
     background-color: white ;
     color: #737373;
-}
+}*/
 .formulario-enviar {
     padding: 10px 20px;
     cursor: pointer;
@@ -60,6 +94,4 @@ h4{
     color: white;
     border-radius: 10px;
     width: 250px;
-    
-
 }
