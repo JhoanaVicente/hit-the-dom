@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
    /* text-decoration: none; "ponerlo en el container"}*/
 }
-=======
->>>>>>> f8b219b91e31c0ad3ff914dac3f8ef63634f9d23
 
 body{
     background-color: #131839;
@@ -17,7 +14,6 @@ body{
 }
 .formulario {
     display: flex;
-<<<<<<< HEAD
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
@@ -110,7 +106,6 @@ h4{
     width: 250px;
     border: none;
 
-=======
 }
 
 .container-1{
@@ -174,5 +169,4 @@ input{
 img{
     width: 10px;
     height: 20px;
->>>>>>> f8b219b91e31c0ad3ff914dac3f8ef63634f9d23
 }
