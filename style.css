@@ -1,7 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   /* text-decoration: none; "ponerlo en el container"}*/
+}
 
 body{
     background-color: #131839;
+    /*display: flex; "ponerlo en el contenedor"
+    justify-content: center; "ponerlo en el contenedor"
+    align-items: center; "ponerlo en el contenedor"*/ 
+    height: 100%;
+}
+.formulario {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contactenos{
+    color: white;  
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;   
+}
+
+h4{
+    color: #6C56C2;
+    font-size: 27px;
+    font-family: 'Inter';
+    font-style: normal;   
+}
+.formulario-boxes{
+    width: 500px;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;    
+}
+.formulario-item1{
+    font-size: 1.1em;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.formulario-item2{
+    font-size: 1.1em;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.formulario-item3{
+    font-size: 1.1em;
+    padding: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: none;
+}
+.formulario-item3::placeholder {
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    
+}
+
+/*.formulario-label, .formulario-enviar {
+    width: 100%;
+    font-size: 1.1em;
+    background: transparent;
+}
+.formulario-input{
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom:40px;
+
+}
+.formulario-input:focus {
+    outline: 1px solid rgba(0,0,0,0.7);
+
+}
+.formulario-input :focus +
+.formulario-label{
+    margin-top: -130px;
+}
+.formulario-label {
+    padding-left: 15px;
+    position: absolute; 
+    margin-top: -85px;
+    transition: all 0.2s;
+    z-index: -20;
+    background-color: white ;
+    color: #737373;
+}*/
+.formulario-enviar {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #6C56C2;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    border: none;
+
 }
 
 .container-1{
