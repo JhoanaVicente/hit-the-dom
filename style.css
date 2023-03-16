@@ -12,6 +12,74 @@ body{
     align-items: center; "ponerlo en el contenedor"*/ 
     height: 100%;
 }
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header-main {
+    width: 100%;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navbar {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+
+}
+
+.navbar-item {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.navbar-item a {
+    color: #A9A5A6;
+    transition: all 1s;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-item a:hover {
+    color: white;
+    font-weight: 700;
+}
+
+.btn-header {
+    background: #6C56C2;
+    color: #A9A5A6;
+    border-radius: 8px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0.5em 2em;
+
+}
+
+button a:hover {
+    background: #6C56C2;
+    font-weight: 400;
+}
 
 /*JHOANA FORMULARIO*/
 
@@ -81,53 +149,67 @@ h4{
 
 }
 
-
-.container-1{
+/*minerva*/
+/*.container-1{
     display: flex;
     height: 100%;
     width: auto;
-}
+}*/
+
 .container_texto{
     color: white; 
     display: flex;
-    margin-top: 60px;
     flex-direction: column;
-    font-family: sans-serif;
-    
-     
+    justify-content: center;    
 }
 
 h1{
-    margin-bottom: 10px;
-    width: 737px;
-    height: 209px;
-    margin-left: 135px;
-    margin-top: 265px;
-    font-size: 64px;
-    line-height: 70px;
+   
+    font-size: 58px;
+    line-height: 48px;
+    margin-top: 90px;
+
 }
 
 
 .texto{
-    margin-left: 135px;
-    color: rgba(169, 165, 166, 1);
-    width: 737px;
-    height: 64px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    
 
+    color: rgba(169, 165, 166, 1);
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 22px;
+}
+.asterisco{
+    width:15px;
+    height:15px;
 }
 .botones{
     
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    
+    text-align: center;
+
+}
+input{
+    color: white ;
+    background-color: rgba(108, 86, 194, 1);
+    border-radius: 16px;
+    width: 158px;
+    height: 68px;
+    margin-top: 128px;
+    
+}
+.botones img{
+    background-color: red;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 128px;
+    
 
 }
 
-.hero-pad {
+/*.hero-pad {
     height: min-content;
     position: relative;
     filter: drop-shadow(0px 0px 100px rgba(186, 168, 255, 0.42));
@@ -164,27 +246,10 @@ h1{
     box-shadow: 0 0 1rem yellowgreen;
 
 } 
-/*{
-    width: 400px;
-    margin-left: 100px;
-    margin-top: 150px;   
+
+ 
 }*/
 
-input{
-    color: white ;
-    background-color: rgba(108, 86, 194, 1);
-    border-radius: 16px;
-    width: 246px;
-    height: 86px;
-    left: 135px;
-    top: 717px;
-    
-}
-.asterisco{
-    margin-left: 200px;
-}
 
-img{
-    width: 10px;
-    height: 20px;
-}
+
+
