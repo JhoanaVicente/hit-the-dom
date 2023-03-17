@@ -183,33 +183,47 @@ h1{
     width:15px;
     height:15px;
 }
-.botones{
+
+.items{
     
     display: flex;
-    
-    text-align: center;
-
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 160px;
+    width: 412px;
+    height: 86px;
 }
-input{
-    color: white ;
-    background-color: rgba(108, 86, 194, 1);
+
+.items button{
+    width: 146px;
+    height: 46px;
+    background: #6C56C2;
     border-radius: 16px;
-    width: 158px;
-    height: 68px;
-    margin-top: 128px;
-    
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', sans-serif;
+    margin-right: 90px;
+
 }
-.botones img{
-    background-color: red;
-    display: flex;
+.items img{
+    width: 14px;
+    height: 14px;
+    color: #FFFFFF;
     margin-right: 20px;
-    margin-left: 30px;
-    margin-top: 128px;
     
-
+}
+.items p {
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: -8px;
+    margin-right: auto;
+    height: 24px;
+    width: 99px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    line-height: 14px;
+    
 }
 
-/*.hero-pad {
+.hero-pad {
     height: min-content;
     position: relative;
     filter: drop-shadow(0px 0px 100px rgba(186, 168, 255, 0.42));
@@ -248,7 +262,7 @@ input{
 } 
 
  
-}*/
+
 
 
 
