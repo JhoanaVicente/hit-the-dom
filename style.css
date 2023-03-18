@@ -65,7 +65,7 @@ a {
 
 .btn-header {
     background: #6C56C2;
-    color: #A9A5A6;
+    color: rgba(255, 255, 255, 1);
     border-radius: 8px;
     border: none;
     font-style: normal;
