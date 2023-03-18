@@ -156,30 +156,45 @@ h4{
     width: auto;
 }*/
 
-.container_texto{
+/*.container_texto{
     color: white; 
     display: flex;
     flex-direction: column;
     justify-content: center;    
+}*/
+.container-akai{
+    padding-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5em;
+    
 }
 
 h1{
    
-    font-size: 58px;
-    line-height: 48px;
-    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', sans-serif; 
+    font-style: normal;
+   
+    font-size: 44px;
+    line-height: 50px;
+    margin-left: 0px;
+    margin-top: 30px;
 
 }
 
 
-.texto{
-
+.container-akai p{
     color: rgba(169, 165, 166, 1);
-    margin-top: 20px;
-    font-size: 20px;
-    line-height: 22px;
+    margin-top: 30px;
 }
+
 .asterisco{
+    margin-left: 350px;
+    margin-top: -30px;
     width:15px;
     height:15px;
 }
@@ -213,17 +228,19 @@ h1{
 }
 .items p {
     color: rgba(255, 255, 255, 1);
-    margin-bottom: -8px;
+    margin-bottom: 15px;
     margin-right: auto;
     height: 24px;
     width: 99px;
     font-family: 'Inter', sans-serif;
     font-size: 13px;
     line-height: 14px;
+    align-items: center;
     
 }
 
 .hero-pad {
+    display: grid;
     height: min-content;
     position: relative;
     filter: drop-shadow(0px 0px 100px rgba(186, 168, 255, 0.42));
