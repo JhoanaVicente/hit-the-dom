@@ -83,85 +83,58 @@ button a:hover {
 
 /*JHOANA FORMULARIO*/
 
-.formulario {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+
+.form-main{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form-main-uno {
+
+    font-family: 'Inter', sans-serif;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48.5px;
+    text-align: left;
+    margin-top: -15px;
+    color: rgba(255, 255, 255, 1);
+}
+.form-main p{
+    font-size: 17px;
+    font-weight: 700;
+    color: rgba(108, 86, 194, 1);
+
+}
+
+.campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    margin-bottom: 10px;
+    outline: 0px;
+}
+
+.btn-enviar{
+    padding: 10px;
+    font-size: 12px;
+    background: #6C56C2;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 300ms ease;
     text-align: center;
 }
 
-.contactenos{
-    color: white;  
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;   
-}
 
-h4{
-    color: #6C56C2;
-    font-size: 27px;
-    font-family: 'Inter';
-    font-style: normal;   
-}
-.formulario-boxes{
-    width: 500px;
-    padding: 20px; 
-    display: flex;
-    flex-direction: column;    
-}
-.formulario-item1{
-    font-size: 1.1em;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-.formulario-item2{
-    font-size: 1.1em;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-.formulario-item3{
-    font-size: 1.1em;
-    padding: 50px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    padding-left: 5px;
-    border: none;
-}
-.formulario-item3::placeholder {
-    position: absolute;
-    top: 10px;
-    margin-left: 10px; 
-}
-.formulario-enviar {
-    padding: 10px 20px;
-    cursor: pointer;
-    background-color: #6C56C2;
-    color: white;
-    border-radius: 10px;
-    width: 250px;
-    border: none;
-
-}
-
-/*minerva*/
-/*.container-1{
-    display: flex;
-    height: 100%;
-    width: auto;
-}*/
-
-/*.container_texto{
-    color: white; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
-}*/
 .container-akai{
     padding-top: 3em;
     display: grid;
@@ -273,8 +246,8 @@ h1{
 .playing {
     transform: scale(1.1);
     
-    border-color: yellowgreen;
-    box-shadow: 0 0 1rem yellowgreen;
+    border-color: blue;
+    box-shadow: 0 0 1rem blue;
 
 } 
 
