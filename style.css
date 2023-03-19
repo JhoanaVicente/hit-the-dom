@@ -250,6 +250,107 @@ h1{
     box-shadow: 0 0 1rem blue;
 
 } 
+@media screen and (max-width: 640px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+    }
+
+
+   .checkbtn{
+    display: block;
+    margin-right: 98px;
+   }
+   
+   .header-navbar img{
+    margin-left: 58px;
+   }
+   .btn-header, nav{
+    display: none;
+}
+.hero-pad img{
+    width: 289.49px;
+    height: 243px;
+    top:-300px
+    
+}
+
+.hero-text h1 {
+    
+    padding-top: 1em;
+    display: grid;
+    
+   font-size: 33px;
+   line-height: 45px;;
+    margin-top: 300px;
+    margin-left: 108px;
+    text-align: center;
+   
+}
+.hero-pad{
+    position: absolute;
+    margin-left: 140px;
+    text-align: center;
+    margin-top: 0.1em;
+    border-radius: 10px;
+}
+.hero-text p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 108px;
+
+}
+.items{
+display: grid;
+justify-content: center;
+align-content: center;
+}
+.items button{
+    width: 238px;
+height: 80px;
+margin-bottom: 130px;
+margin-left: 258px;
+background: #6C56C2;
+border-radius: 14px;
+}
+.items img {
+    height: 14px;
+    width: 17px;
+    margin-top: -178px;
+    margin-left: 328px;
+    
+
+}
+.items p{
+    font-size: small;
+    margin-left: 338px;
+    margin-top: -178px
+
+
+}
+
+
+.form-main-uno{
+    height: 53px;
+    width: 289px;
+    margin-top: -68px;
+    margin-left: 168px;
+}  
+.form-main-dos{
+    height: 440px;
+    width: 300px;
+    margin-left:-318px;
+    margin-top: 10px;
+
+}
+.btn-enviar{
+    
+    width: 304px;
+    height:60px;
+}
+}
 
  
 
