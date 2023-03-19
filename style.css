@@ -80,6 +80,20 @@ button a:hover {
     background: #6C56C2;
     font-weight: 400;
 }
+.checkbtn {
+    line-height: 20px;
+    font-size: 20px;
+    background-color:rgba(108, 86, 194, 1);
+    color: #FFFFFF;
+    float: right;
+    margin-right: 20px;
+   
+    cursor: pointer;
+    display: none;
+    }
+.check{
+    display: none;
+}
 
 /*JHOANA FORMULARIO*/
 
@@ -260,7 +274,8 @@ h1{
 
    .checkbtn{
     display: block;
-    margin-right: 98px;
+    margin-right: 78px;
+    margin-top: 20px;
    }
    
    .header-navbar img{
