@@ -150,10 +150,51 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+}
+
+.hero-pad {
+    height: min-content;
+    position: relative;
+    filter: drop-shadow(0px 0px 100px rgba(186, 168, 255, 0.42));
+
+}
+
+.keys {
+  position: absolute;
+  width: 64%;
+  height: 75%;
+  top: 10%;
+  right: 2%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 3%;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  
+
+}
+.key {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 3px;
+    transition: all 0.7s;
+
+}
+.playing {
+    transform: scale(1.1);
+    
+    border-color: yellowgreen;
+    box-shadow: 0 0 1rem yellowgreen;
+
+} 
+/*{
     width: 400px;
     margin-left: 100px;
     margin-top: 150px;   
-}
+}*/
 
 input{
     color: white ;
