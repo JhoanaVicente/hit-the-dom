@@ -17,4 +17,24 @@ function removeTransition(e) {
     keys.forEach(key => key.addEventListener('transitionend', removeTransition));
     window.addEventListener('keydown', playSound);
 
-    
+
+   var nombre = document.getElementById('Nombre*');
+   var mailito = document.getElementById('Email*');
+   var error = document.getElementById('error');
+   error.style.color = 'black';/*le cambio el color mediante js 
+
+ function enviarFormulario() {
+   console.log('Enviando formulario...');
+   /*estoy creando un arreglo para los mensajes error*/
+   var mensajesError = [];
+   if(nombre === null || nombre === ""){
+      mensajesError.push('Ingresa tu nombre');
+   }
+   if(!mailito.includes('@')){
+      mensajesError.push('Ingresa un e-mail valido');
+   }
+   error.innerHTML = mensajesError.join(','); /*convertimos el arreglo de mensajes error a una cadena texto */
+     return false;
+
+
+  

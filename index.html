@@ -101,8 +101,9 @@
                     <input type="text" name="nombre" placeholder="Nombre *" class="campo" minlength="5" maxlength="25" required="Nombre obligatorio"/>
                     <input type="email" name="email" placeholder="Email *" class="campo" required="@"/>
                     <textarea name="mensaje" placeholder="Message" cols="50" rows="7" minlength="11" maxlength="100"></textarea>
-                    <input type="submmit" name="enviar" value="Enviar" class="btn-enviar">
+                    <input type="submmit" name="enviar" onclick = 'return enviarFormulario()' value="Enviar" class="btn-enviar"> <!-- Uso return para que el formulario no se envie por defecto-->
                 </form>
+                <div id="error"></div>
             </section>
     </div>
     <script src="jsirina.js"></script>
